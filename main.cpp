@@ -33,7 +33,7 @@ void countLetters(const char* str) {
     }
     for(const auto kvp : count) {
         if(kvp.second == 1) std::cout << kvp.first << " pojawia sie raz" << std::endl;
-        else std::cout << kvp.first << " pojawia sie " << kvp.second << " razy << std::endl; 
+        else std::cout << kvp.first << " pojawia sie " << kvp.second << " razy" << std::endl; 
         /*
         English translation:
             if(kvp.second == 1) std::cout << kvp.first << " occurrs" << kvp.second << " times" << std::endl;
